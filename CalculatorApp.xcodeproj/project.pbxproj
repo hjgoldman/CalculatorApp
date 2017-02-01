@@ -14,6 +14,7 @@
 		3A823BAB1E42529300A620BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A823BAA1E42529300A620BA /* Assets.xcassets */; };
 		3A823BAE1E42529300A620BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A823BAC1E42529300A620BA /* LaunchScreen.storyboard */; };
 		3A823BB71E4255E800A620BA /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A823BB61E4255E800A620BA /* Calculator.m */; };
+		3A823BBD1E4265CC00A620BA /* ScientificCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A823BBC1E4265CC00A620BA /* ScientificCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		3A823BAF1E42529300A620BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A823BB51E4255E800A620BA /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		3A823BB61E4255E800A620BA /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		3A823BBB1E4265CC00A620BA /* ScientificCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScientificCalculator.h; sourceTree = "<group>"; };
+		3A823BBC1E4265CC00A620BA /* ScientificCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScientificCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				3A823B9E1E42529300A620BA /* Supporting Files */,
 				3A823BB51E4255E800A620BA /* Calculator.h */,
 				3A823BB61E4255E800A620BA /* Calculator.m */,
+				3A823BBB1E4265CC00A620BA /* ScientificCalculator.h */,
+				3A823BBC1E4265CC00A620BA /* ScientificCalculator.m */,
 			);
 			path = CalculatorApp;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A823BA61E42529300A620BA /* ViewController.m in Sources */,
+				3A823BBD1E4265CC00A620BA /* ScientificCalculator.m in Sources */,
 				3A823BB71E4255E800A620BA /* Calculator.m in Sources */,
 				3A823BA31E42529300A620BA /* AppDelegate.m in Sources */,
 				3A823BA01E42529300A620BA /* main.m in Sources */,

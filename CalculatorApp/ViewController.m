@@ -68,4 +68,16 @@
 
 }
 
+-(IBAction) modButtonPressed{
+ 
+    double no1 = self.numberOneTextField.text.doubleValue;
+    double no2 = self.numberTwoTextField.text.doubleValue;
+    
+    ScientificCalculator *scientificCalculator =[[ScientificCalculator alloc] init];
+    double finalResult = [scientificCalculator mod:no1 secondNumber:no2];
+    
+    self.resultLabel.text = [NSString stringWithFormat:@"%f",finalResult];
+    
+}
+
 @end

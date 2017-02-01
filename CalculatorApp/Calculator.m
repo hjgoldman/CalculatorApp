@@ -16,7 +16,6 @@
     return result;
 }
 
-
 -(double) subtract:(double) firstNumber secondNumber:(double) secondNumber{
     
     double result = firstNumber - secondNumber;
